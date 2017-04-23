@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetListado_esta" targetNamespace="http://tempuri.org/DataSetListado_esta.xsd" xmlns:mstns="http://tempuri.org/DataSetListado_esta.xsd" xmlns="http://tempuri.org/DataSetListado_esta.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.Proyecto_estacionamiento.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="Oracle.ManagedDataAccess.Client" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_LISTA_ESTACIONAMIENTOTableAdapter" GeneratorDataComponentClassName="V_LISTA_ESTACIONAMIENTOTableAdapter" Name="V_LISTA_ESTACIONAMIENTO" UserDataComponentName="V_LISTA_ESTACIONAMIENTOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="DESARROLLO.V_LISTA_ESTACIONAMIENTO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID_LISTA, ID_ESTACIONAMIENTO, ESTADO FROM DESARROLLO.V_LISTA_ESTACIONAMIENTO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID_LISTA" DataSetColumn="ID_LISTA" />
+              <Mapping SourceColumn="ID_ESTACIONAMIENTO" DataSetColumn="ID_ESTACIONAMIENTO" />
+              <Mapping SourceColumn="ESTADO" DataSetColumn="ESTADO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetListado_esta" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataSetListado_esta" msprop:Generator_UserDSName="DataSetListado_esta">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="V_LISTA_ESTACIONAMIENTO" msprop:Generator_TableClassName="V_LISTA_ESTACIONAMIENTODataTable" msprop:Generator_TableVarName="tableV_LISTA_ESTACIONAMIENTO" msprop:Generator_TablePropName="V_LISTA_ESTACIONAMIENTO" msprop:Generator_RowDeletingName="V_LISTA_ESTACIONAMIENTORowDeleting" msprop:Generator_RowChangingName="V_LISTA_ESTACIONAMIENTORowChanging" msprop:Generator_RowEvHandlerName="V_LISTA_ESTACIONAMIENTORowChangeEventHandler" msprop:Generator_RowDeletedName="V_LISTA_ESTACIONAMIENTORowDeleted" msprop:Generator_UserTableName="V_LISTA_ESTACIONAMIENTO" msprop:Generator_RowChangedName="V_LISTA_ESTACIONAMIENTORowChanged" msprop:Generator_RowEvArgName="V_LISTA_ESTACIONAMIENTORowChangeEvent" msprop:Generator_RowClassName="V_LISTA_ESTACIONAMIENTORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_LISTA" msprop:Generator_ColumnVarNameInTable="columnID_LISTA" msprop:Generator_ColumnPropNameInRow="ID_LISTA" msprop:Generator_ColumnPropNameInTable="ID_LISTAColumn" msprop:Generator_UserColumnName="ID_LISTA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ID_ESTACIONAMIENTO" msprop:Generator_ColumnVarNameInTable="columnID_ESTACIONAMIENTO" msprop:Generator_ColumnPropNameInRow="ID_ESTACIONAMIENTO" msprop:Generator_ColumnPropNameInTable="ID_ESTACIONAMIENTOColumn" msprop:Generator_UserColumnName="ID_ESTACIONAMIENTO" type="xs:decimal" />
+              <xs:element name="ESTADO" msprop:Generator_ColumnVarNameInTable="columnESTADO" msprop:Generator_ColumnPropNameInRow="ESTADO" msprop:Generator_ColumnPropNameInTable="ESTADOColumn" msprop:Generator_UserColumnName="ESTADO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

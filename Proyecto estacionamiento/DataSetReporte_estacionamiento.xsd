@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetReporte_estacionamiento" targetNamespace="http://tempuri.org/DataSetReporte_estacionamiento.xsd" xmlns:mstns="http://tempuri.org/DataSetReporte_estacionamiento.xsd" xmlns="http://tempuri.org/DataSetReporte_estacionamiento.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.Proyecto_estacionamiento.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="Oracle.ManagedDataAccess.Client" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_ESTACIONAMIENTOTableAdapter" GeneratorDataComponentClassName="V_ESTACIONAMIENTOTableAdapter" Name="V_ESTACIONAMIENTO" UserDataComponentName="V_ESTACIONAMIENTOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="DESARROLLO.V_ESTACIONAMIENTO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID_ESTACIONAMIENTO, DIRECCION, COMUNA, LATITUD, LONGITUD, PRECIO, ARRENDADOR, TIPO_CLIENTE_ID_TIPO, DISPONIBILIDAD, HORARIO_INICIO, HORARIO_TERMINO FROM DESARROLLO.V_ESTACIONAMIENTO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID_ESTACIONAMIENTO" DataSetColumn="ID_ESTACIONAMIENTO" />
+              <Mapping SourceColumn="DIRECCION" DataSetColumn="DIRECCION" />
+              <Mapping SourceColumn="COMUNA" DataSetColumn="COMUNA" />
+              <Mapping SourceColumn="LATITUD" DataSetColumn="LATITUD" />
+              <Mapping SourceColumn="LONGITUD" DataSetColumn="LONGITUD" />
+              <Mapping SourceColumn="PRECIO" DataSetColumn="PRECIO" />
+              <Mapping SourceColumn="ARRENDADOR" DataSetColumn="ARRENDADOR" />
+              <Mapping SourceColumn="TIPO_CLIENTE_ID_TIPO" DataSetColumn="TIPO_CLIENTE_ID_TIPO" />
+              <Mapping SourceColumn="DISPONIBILIDAD" DataSetColumn="DISPONIBILIDAD" />
+              <Mapping SourceColumn="HORARIO_INICIO" DataSetColumn="HORARIO_INICIO" />
+              <Mapping SourceColumn="HORARIO_TERMINO" DataSetColumn="HORARIO_TERMINO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetReporte_estacionamiento" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataSetReporte_estacionamiento" msprop:Generator_UserDSName="DataSetReporte_estacionamiento">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="V_ESTACIONAMIENTO" msprop:Generator_TableClassName="V_ESTACIONAMIENTODataTable" msprop:Generator_TableVarName="tableV_ESTACIONAMIENTO" msprop:Generator_TablePropName="V_ESTACIONAMIENTO" msprop:Generator_RowDeletingName="V_ESTACIONAMIENTORowDeleting" msprop:Generator_RowChangingName="V_ESTACIONAMIENTORowChanging" msprop:Generator_RowEvHandlerName="V_ESTACIONAMIENTORowChangeEventHandler" msprop:Generator_RowDeletedName="V_ESTACIONAMIENTORowDeleted" msprop:Generator_UserTableName="V_ESTACIONAMIENTO" msprop:Generator_RowChangedName="V_ESTACIONAMIENTORowChanged" msprop:Generator_RowEvArgName="V_ESTACIONAMIENTORowChangeEvent" msprop:Generator_RowClassName="V_ESTACIONAMIENTORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_ESTACIONAMIENTO" msprop:Generator_ColumnVarNameInTable="columnID_ESTACIONAMIENTO" msprop:Generator_ColumnPropNameInRow="ID_ESTACIONAMIENTO" msprop:Generator_ColumnPropNameInTable="ID_ESTACIONAMIENTOColumn" msprop:Generator_UserColumnName="ID_ESTACIONAMIENTO" type="xs:decimal" />
+              <xs:element name="DIRECCION" msprop:Generator_ColumnVarNameInTable="columnDIRECCION" msprop:Generator_ColumnPropNameInRow="DIRECCION" msprop:Generator_ColumnPropNameInTable="DIRECCIONColumn" msprop:Generator_UserColumnName="DIRECCION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COMUNA" msprop:Generator_ColumnVarNameInTable="columnCOMUNA" msprop:Generator_ColumnPropNameInRow="COMUNA" msprop:Generator_ColumnPropNameInTable="COMUNAColumn" msprop:Generator_UserColumnName="COMUNA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LATITUD" msprop:Generator_ColumnVarNameInTable="columnLATITUD" msprop:Generator_ColumnPropNameInRow="LATITUD" msprop:Generator_ColumnPropNameInTable="LATITUDColumn" msprop:Generator_UserColumnName="LATITUD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LONGITUD" msprop:Generator_ColumnVarNameInTable="columnLONGITUD" msprop:Generator_ColumnPropNameInRow="LONGITUD" msprop:Generator_ColumnPropNameInTable="LONGITUDColumn" msprop:Generator_UserColumnName="LONGITUD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRECIO" msprop:Generator_ColumnVarNameInTable="columnPRECIO" msprop:Generator_ColumnPropNameInRow="PRECIO" msprop:Generator_ColumnPropNameInTable="PRECIOColumn" msprop:Generator_UserColumnName="PRECIO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ARRENDADOR" msprop:Generator_ColumnVarNameInTable="columnARRENDADOR" msprop:Generator_ColumnPropNameInRow="ARRENDADOR" msprop:Generator_ColumnPropNameInTable="ARRENDADORColumn" msprop:Generator_UserColumnName="ARRENDADOR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO_CLIENTE_ID_TIPO" msprop:Generator_ColumnVarNameInTable="columnTIPO_CLIENTE_ID_TIPO" msprop:Generator_ColumnPropNameInRow="TIPO_CLIENTE_ID_TIPO" msprop:Generator_ColumnPropNameInTable="TIPO_CLIENTE_ID_TIPOColumn" msprop:Generator_UserColumnName="TIPO_CLIENTE_ID_TIPO" type="xs:decimal" />
+              <xs:element name="DISPONIBILIDAD" msprop:Generator_ColumnVarNameInTable="columnDISPONIBILIDAD" msprop:Generator_ColumnPropNameInRow="DISPONIBILIDAD" msprop:Generator_ColumnPropNameInTable="DISPONIBILIDADColumn" msprop:Generator_UserColumnName="DISPONIBILIDAD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HORARIO_INICIO" msprop:Generator_ColumnVarNameInTable="columnHORARIO_INICIO" msprop:Generator_ColumnPropNameInRow="HORARIO_INICIO" msprop:Generator_ColumnPropNameInTable="HORARIO_INICIOColumn" msprop:Generator_UserColumnName="HORARIO_INICIO" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="HORARIO_TERMINO" msprop:Generator_ColumnVarNameInTable="columnHORARIO_TERMINO" msprop:Generator_ColumnPropNameInRow="HORARIO_TERMINO" msprop:Generator_ColumnPropNameInTable="HORARIO_TERMINOColumn" msprop:Generator_UserColumnName="HORARIO_TERMINO" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

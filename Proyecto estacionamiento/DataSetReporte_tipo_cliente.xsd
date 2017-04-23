@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetReporte_tipo_cliente" targetNamespace="http://tempuri.org/DataSetReporte_tipo_cliente.xsd" xmlns:mstns="http://tempuri.org/DataSetReporte_tipo_cliente.xsd" xmlns="http://tempuri.org/DataSetReporte_tipo_cliente.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.Proyecto_estacionamiento.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="Oracle.ManagedDataAccess.Client" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_TIPO_CLIENTETableAdapter" GeneratorDataComponentClassName="V_TIPO_CLIENTETableAdapter" Name="V_TIPO_CLIENTE" UserDataComponentName="V_TIPO_CLIENTETableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="DESARROLLO.V_TIPO_CLIENTE" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID_TIPO, ARRENDADOR, ARRENDATARIO, RUT FROM DESARROLLO.V_TIPO_CLIENTE</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID_TIPO" DataSetColumn="ID_TIPO" />
+              <Mapping SourceColumn="ARRENDADOR" DataSetColumn="ARRENDADOR" />
+              <Mapping SourceColumn="ARRENDATARIO" DataSetColumn="ARRENDATARIO" />
+              <Mapping SourceColumn="RUT" DataSetColumn="RUT" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetReporte_tipo_cliente" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataSetReporte_tipo_cliente" msprop:Generator_UserDSName="DataSetReporte_tipo_cliente">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="V_TIPO_CLIENTE" msprop:Generator_TableClassName="V_TIPO_CLIENTEDataTable" msprop:Generator_TableVarName="tableV_TIPO_CLIENTE" msprop:Generator_TablePropName="V_TIPO_CLIENTE" msprop:Generator_RowDeletingName="V_TIPO_CLIENTERowDeleting" msprop:Generator_RowChangingName="V_TIPO_CLIENTERowChanging" msprop:Generator_RowEvHandlerName="V_TIPO_CLIENTERowChangeEventHandler" msprop:Generator_RowDeletedName="V_TIPO_CLIENTERowDeleted" msprop:Generator_UserTableName="V_TIPO_CLIENTE" msprop:Generator_RowChangedName="V_TIPO_CLIENTERowChanged" msprop:Generator_RowEvArgName="V_TIPO_CLIENTERowChangeEvent" msprop:Generator_RowClassName="V_TIPO_CLIENTERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_TIPO" msprop:Generator_ColumnVarNameInTable="columnID_TIPO" msprop:Generator_ColumnPropNameInRow="ID_TIPO" msprop:Generator_ColumnPropNameInTable="ID_TIPOColumn" msprop:Generator_UserColumnName="ID_TIPO" type="xs:decimal" />
+              <xs:element name="ARRENDADOR" msprop:Generator_ColumnVarNameInTable="columnARRENDADOR" msprop:Generator_ColumnPropNameInRow="ARRENDADOR" msprop:Generator_ColumnPropNameInTable="ARRENDADORColumn" msprop:Generator_UserColumnName="ARRENDADOR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ARRENDATARIO" msprop:Generator_ColumnVarNameInTable="columnARRENDATARIO" msprop:Generator_ColumnPropNameInRow="ARRENDATARIO" msprop:Generator_ColumnPropNameInTable="ARRENDATARIOColumn" msprop:Generator_UserColumnName="ARRENDATARIO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RUT" msprop:Generator_ColumnVarNameInTable="columnRUT" msprop:Generator_ColumnPropNameInRow="RUT" msprop:Generator_ColumnPropNameInTable="RUTColumn" msprop:Generator_UserColumnName="RUT" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

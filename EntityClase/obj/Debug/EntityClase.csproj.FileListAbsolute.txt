@@ -1,0 +1,5 @@
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\EntityClase\bin\Debug\EntityClase.dll
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\EntityClase\bin\Debug\EntityClase.pdb
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\EntityClase\obj\Debug\EntityClase.csprojResolveAssemblyReference.cache
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\EntityClase\obj\Debug\EntityClase.dll
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\EntityClase\obj\Debug\EntityClase.pdb

@@ -1,0 +1,29 @@
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\obj\Debug\Proyecto estacionamiento.exe
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\obj\Debug\Proyecto estacionamiento.pdb
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\bin\Debug\Proyecto estacionamiento.exe
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\bin\Debug\Proyecto estacionamiento.pdb
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\bin\Debug\GMap.NET.Core.xml
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\bin\Debug\GMap.NET.WindowsForms.xml
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\obj\Debug\Proyecto estacionamiento.csprojResolveAssemblyReference.cache
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\obj\Debug\Proyecto_estacionamiento.Properties.Resources.resources
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\obj\Debug\Proyecto estacionamiento.csproj.GenerateResource.Cache
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\obj\Debug\Proyecto_estacionamiento.Fr_mapa_google.resources
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\bin\Debug\DAO.dll
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\bin\Debug\DAO.pdb
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\obj\Debug\Proyecto_estacionamiento.Fr_administracion_usuario.resources
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\obj\Debug\Proyecto_estacionamiento.Fr_Menu_administracion.resources
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\obj\Debug\Proyecto_estacionamiento.Fr_Login.resources
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\obj\Debug\Proyecto_estacionamiento.Fr_estacionamiento.resources
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\obj\Debug\Proyecto_estacionamiento.Fr_Arriendo.resources
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\bin\Debug\EntityClase.dll
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\bin\Debug\EntityClase.pdb
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\obj\Debug\Proyecto_estacionamiento.Fr_vehiculo.resources
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\bin\Debug\Proyecto estacionamiento.exe.config
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\obj\Debug\Proyecto_estacionamiento.Fr_tipo_cliente.resources
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\obj\Debug\Proyecto_estacionamiento.Fr_Lista_Estacionamiento.resources
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\obj\Debug\Proyecto_estacionamiento.Fr_Reportes.resources
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\bin\Debug\itextsharp.dll
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\bin\Debug\itextsharp.xml
+C:\Users\Andrea\documents\visual studio 2013\Projects\Proyecto estacionamiento\Proyecto estacionamiento\obj\Debug\Proyecto estacionamiento.csproj.ResolveComReference.cache

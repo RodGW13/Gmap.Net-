@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetReporte_Arriendo" targetNamespace="http://tempuri.org/DataSetReporte_Arriendo.xsd" xmlns:mstns="http://tempuri.org/DataSetReporte_Arriendo.xsd" xmlns="http://tempuri.org/DataSetReporte_Arriendo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.Proyecto_estacionamiento.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="Oracle.ManagedDataAccess.Client" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_ARRIENDOTableAdapter" GeneratorDataComponentClassName="V_ARRIENDOTableAdapter" Name="V_ARRIENDO" UserDataComponentName="V_ARRIENDOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="DESARROLLO.V_ARRIENDO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID_ARRIENDO, FECHA_INICIO, FECHA_TERMINO, ARRENDATARIO, TIPO_CLIENTE_ID_TIPO FROM DESARROLLO.V_ARRIENDO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID_ARRIENDO" DataSetColumn="ID_ARRIENDO" />
+              <Mapping SourceColumn="FECHA_INICIO" DataSetColumn="FECHA_INICIO" />
+              <Mapping SourceColumn="FECHA_TERMINO" DataSetColumn="FECHA_TERMINO" />
+              <Mapping SourceColumn="ARRENDATARIO" DataSetColumn="ARRENDATARIO" />
+              <Mapping SourceColumn="TIPO_CLIENTE_ID_TIPO" DataSetColumn="TIPO_CLIENTE_ID_TIPO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetReporte_Arriendo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataSetReporte_Arriendo" msprop:Generator_UserDSName="DataSetReporte_Arriendo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="V_ARRIENDO" msprop:Generator_TableClassName="V_ARRIENDODataTable" msprop:Generator_TableVarName="tableV_ARRIENDO" msprop:Generator_TablePropName="V_ARRIENDO" msprop:Generator_RowDeletingName="V_ARRIENDORowDeleting" msprop:Generator_RowChangingName="V_ARRIENDORowChanging" msprop:Generator_RowEvHandlerName="V_ARRIENDORowChangeEventHandler" msprop:Generator_RowDeletedName="V_ARRIENDORowDeleted" msprop:Generator_UserTableName="V_ARRIENDO" msprop:Generator_RowChangedName="V_ARRIENDORowChanged" msprop:Generator_RowEvArgName="V_ARRIENDORowChangeEvent" msprop:Generator_RowClassName="V_ARRIENDORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_ARRIENDO" msprop:Generator_ColumnVarNameInTable="columnID_ARRIENDO" msprop:Generator_ColumnPropNameInRow="ID_ARRIENDO" msprop:Generator_ColumnPropNameInTable="ID_ARRIENDOColumn" msprop:Generator_UserColumnName="ID_ARRIENDO" type="xs:decimal" />
+              <xs:element name="FECHA_INICIO" msprop:Generator_ColumnVarNameInTable="columnFECHA_INICIO" msprop:Generator_ColumnPropNameInRow="FECHA_INICIO" msprop:Generator_ColumnPropNameInTable="FECHA_INICIOColumn" msprop:Generator_UserColumnName="FECHA_INICIO" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FECHA_TERMINO" msprop:Generator_ColumnVarNameInTable="columnFECHA_TERMINO" msprop:Generator_ColumnPropNameInRow="FECHA_TERMINO" msprop:Generator_ColumnPropNameInTable="FECHA_TERMINOColumn" msprop:Generator_UserColumnName="FECHA_TERMINO" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ARRENDATARIO" msprop:Generator_ColumnVarNameInTable="columnARRENDATARIO" msprop:Generator_ColumnPropNameInRow="ARRENDATARIO" msprop:Generator_ColumnPropNameInTable="ARRENDATARIOColumn" msprop:Generator_UserColumnName="ARRENDATARIO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO_CLIENTE_ID_TIPO" msprop:Generator_ColumnVarNameInTable="columnTIPO_CLIENTE_ID_TIPO" msprop:Generator_ColumnPropNameInRow="TIPO_CLIENTE_ID_TIPO" msprop:Generator_ColumnPropNameInTable="TIPO_CLIENTE_ID_TIPOColumn" msprop:Generator_UserColumnName="TIPO_CLIENTE_ID_TIPO" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
